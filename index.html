@@ -32,8 +32,14 @@
             border-radius: 10px;
         }
 
+        section p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
         h1 {
             color: black;
+            margin: 0;
         }
 
         input#txtn1 {
@@ -90,6 +96,7 @@
     <section>
         <div class="sec1">
             <h1>Fiscalização de Velocidade</h1>
+            <p>Velocidade máxima, 80km/h.</p>
             Medidor de velocidade: <input type="number" name="txt" id="txtn1" placeholder="km/h">
             <input class="bot" type="button" value="ok" onclick="calcular()">
             <div id="msg"></div>
